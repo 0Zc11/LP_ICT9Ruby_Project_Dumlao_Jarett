@@ -1,0 +1,163 @@
+.sidebar {
+    border: solid 30px rgb(190, 240, 190);
+    background-color: rgb(190, 240, 190);
+    margin-right: -50px;
+    margin-left: 1280px;
+    margin-top: -25px;
+    padding-right: 50px;
+    padding-left: 20px;
+    transition-duration: 0.3s;
+    border-radius: 5px;
+}
+.sidebar:hover {
+    transition-duration: 0.3s;
+    margin-right: -25px;
+    margin-left: 1100px;
+}
+body {
+    font-family: monospace;
+    background-image: radial-gradient(rgb(190, 240, 190), white);
+}
+.eat {
+    color: rgb(190, 240, 190);
+}
+.easy {
+    color: white;
+}
+.header {
+    border: solid 5px black;
+    border-radius: 5px;
+    padding: 5px;
+    margin-right: 1150px;
+    margin-top: -170px;
+    background-color: black;
+    font-size: larger;
+}
+.nom {
+    margin-top: 10px;
+    margin-left: 5px;
+}
+.searchbar {
+    display: flex;
+    margin-left: 500px;
+    padding: 5px;
+    border: 5px solid black;
+    border-radius: 5px;
+    margin-right: 500px;
+    background-color: black;
+    margin-top: -200px;
+    transition-duration: 0.3s;
+}
+.searchitem {
+    opacity: 1;
+    color: rgb(190, 240, 190);
+    background-color: black;
+    font-family: monospace;
+    border: 2px solid black;
+    cursor: pointer;
+}
+.sidebaritems {
+    cursor: pointer;
+}
+.products {
+    margin-top: 250px;
+    display: flex;
+    padding: 20px;
+    font-size: 100%;
+}
+.product1 {
+    border: rgb(0, 0, 0) solid 5px;
+    padding: 10px;
+    border-radius: 5px;
+    background-color: black;
+    box-shadow: 0 10px 5px rgba(81, 102, 88, 0);
+    transition-duration: 0.3s;
+    cursor: pointer;
+}
+.product2 {
+    border: black solid 5px;
+    padding: 10px;
+    border-radius: 5px;
+    margin-left: 200px;
+    background-color: black;
+    box-shadow: 0 10px 5px rgba(81, 102, 88, 0);
+    transition-duration: 0.3s;
+    cursor: pointer;
+}
+.product3 {
+    border: black solid 5px;
+    padding: 10px;
+    border-radius: 5px;
+    margin-left: 200px;
+    background-color: black;
+    box-shadow: 0 10px 5px rgba(81, 102, 88, 0);
+    transition-duration: 0.3s;
+    cursor: pointer;
+}
+.product1:hover {
+    transition-duration: 0.3s;
+    box-shadow: 0 10px 5px rgba(81, 102, 88, 0.5);
+    margin-top: -15px;
+    margin-bottom: 15px;
+}
+.product2:hover {
+    transition-duration: 0.3s;
+    box-shadow: 0 10px 5px rgba(81, 102, 88, 0.5);
+    margin-top: -15px;
+    margin-bottom: 15px;
+}
+.product3:hover {
+    transition-duration: 0.3s;
+    box-shadow: 0 10px 5px rgba(81, 102, 88, 0.5);
+    margin-top: -15px;
+    margin-bottom: 15px;
+}
+.american {
+    width: 250px;
+    height: 275px;
+}
+.italian {
+    width: 250px;
+    height: 275px;
+}
+.japanese {
+    width: 250px;
+    height: 275px;
+}
+.feedback {
+    display: flex;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: black;
+    margin-top: -200px;
+    transition-duration: 0.3s;
+}
+.feeditem {
+    color: rgb(190, 240, 190);
+    background-color: black;
+    font-family: monospace;
+    border: 2px solid black;
+    cursor: pointer;
+}
+.exit {
+    color: rgb(255, 255, 255);
+    margin-left: -25px;
+    margin-top: 0px;
+    opacity: 0;
+    cursor: pointer;
+}
+.desc1 {
+    color: white;
+    margin-top: -100px;
+    opacity: 0;
+}
+.desc2 {
+    color: white;
+    margin-top: -100px;
+    opacity: 0;
+}
+.desc3 {
+    color: white;
+    margin-top: -100px;
+    opacity: 0;
+}

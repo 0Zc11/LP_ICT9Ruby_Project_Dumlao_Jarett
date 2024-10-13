@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Eat Easy Store Page</title>
+    <link rel="stylesheet" href="final.css">
+    <script src="script.js"></script>
+</head>
+<body>
+    <div class="sidebar">
+        <h2 class="sidebaritems" onclick="unsearch()">Home</h2>
+        <h2 id="search" class="sidebaritems" onclick="search()">Search</h2>
+        <h2 class="sidebaritems" onclick="feedback()">Feedback</h2>
+    </div>
+    <div class="header">
+        <h2>
+            <span class="eat">Eat</span>
+            <span class="easy">Easy</span>
+        </h2>
+    </div>
+    <h5 class="nom">"nom nom nom"</h5>
+    <form class="searchbar" id="bar">
+        <button type="submit" class="searchitem">Search</button>
+        <textarea id="textareabar" cols="50" rows="1"></textarea>
+    </form>
+
+    <form class="feedback" id="feedback"></form>
+        <button type="submit" class="feeditem">Send</button>
+        <br>
+        <textarea id="feedbackbar" cols="50" rows="7"></textarea>
+    </form>
+
+    <div class="products" id="products">
+        <div class="product1" id="product1" onclick="prod1()">
+            <h2 style="color: rgb(190, 240, 190);" id="title1">American <br>Burger</h2>
+            <h3 style="color: rgb(255, 255, 255);" id="price1">14.99$</h3>
+            <p class="desc1" id="desc1">
+                This dish contains an American style meal containing a burger, fries, and a set of condiments. This dish has 1200 calories, 63g of fat, 140mg of cholesterol, 420mg of sodium, and 113 grams of carbs.
+            </p>
+            <img src="american.jpg" alt="American Lunch Pack" class="american" id="american">
+        </div>
+        <div class="product2" id="product2" onclick="prod2()">
+            <h2 style="color: rgb(190, 240, 190);" id="title2">Italian <br>Spaghetti</h2>
+            <h3 style="color: rgb(255, 255, 255);" id="price2">15.99$</h3>
+            <p class="desc2" id="desc2">
+                This dish contains a bowl of Italian-styled spaghetti and some appetizers made from bread. This dish has 158 calories, 8g of protein, 221 calories, 2520 mg of fiber, and 780mg of sugar.
+            </p>
+            <img src="italian.jpg" alt="Pasta Pack" class="italian" id="italian">
+        </div>
+        <div class="product3" id="product3" onclick="prod3()">
+            <h2 style="color: rgb(190, 240, 190);" id="title3">Japanese Teriyaki<br>Chicken</h2>
+            <h3 style="color: rgb(255, 255, 255);" id="price3">15.99$</h3>
+            <p class="desc3" id="desc3">
+                This dish is a Japanese Teriyaki-style chicken with rice and it contains 470 calories, 49 grams of protein, 9 grams of fat, 49 grams of carbohydrates, 3 grams of sugar, and 540 milligrams of sodium.
+            </p>
+            <img src="japanese.jpg" alt="Asian Rice Pack" class="japanese" id="japanese">
+        </div>
+        <h1 class="exit" id="exit" onclick="exit()">X</h1>
+    </div>
+</body>
+</html>
